@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud table operatios</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="projectCode">Project Code</label>
+                        <input type="text" name="projectCode" id="projectCode">
+                    </div>
+                    <div>
+                        <label for="projectName">Project Name</label>
+                        <input type="text" name="projectName" id="projectName">
+                    </div>
+                    <div>
+                        <label for="language">Language</label>
+                        <input type="text" name="language" id="language">
+                    </div>
+                    <div>
+                        <label for="period">Period</label>
+                        <input type="text" name="period" id="period">
+                    </div>    
+
+                    <div class="form_action-button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="project_list" id="project_list">
+                        <thead>
+                            <tr>
+                                <th>Project Code</th>
+                                <th>Project Name</th>
+                                <th>Language</th>
+                                <th>Period</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>DR0004</td>
+                                <td>E-Commerce</td>
+                                <td>PYTHON</td>
+                                <td>1.5 months</td>
+                            </tr>
+                            <tr>
+                                <td>CFOOO4</td>
+                                <td>Project Management</td>
+                                <td>JS</td>
+                                <td>1.5 months</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script text="text/javascript" src="./app.js"></script>
+</body>
+</html>

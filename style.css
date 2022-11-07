@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(51, 51, 99);
+    color: white;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(74, 96, 103);
+}
+
+table .project_list{
+    text-align: center;
+    width: 100%;
+}
+
+
+td{
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table .project_list thread> tr{
+    background-color: rgb(102, 71, 71);
+}
+
+.form_action-button{
+    padding: 3px;
+    background: black;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.form_action-button input{
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+form div{
+    margin: 20px;
+}
+
+form div input{
+    width: 100%;
+}
+
+.form_action-button input:hover{
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
