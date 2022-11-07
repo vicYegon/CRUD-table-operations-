@@ -2,7 +2,7 @@
 var selectedRow = null;
 
 function onFormSubmit(e){
-    e.preventDefault();
+    event.preventDefault();
     var formData = readFormData();
     if(selectedRow === null){
         insertNewData(formData);
